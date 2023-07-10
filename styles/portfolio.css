@@ -95,10 +95,34 @@ nav a {
 }
 
 /* Main Section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section */
 .about {
     border-radius: 10px;
     background-color: #FFF8F3;
     padding: 130px;
     margin: 130px 0;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: center;
+    color: #757575;
+    font-size: 20px;
+}
+.info-title {
+    font-weight: 400;
+}
+.info-description {
+    font-weight: 700;
+    color: #474747;
+    margin-top: -20px;
 }
